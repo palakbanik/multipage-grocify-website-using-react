@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import Category from "../Category/Category";
+import Values from "../Values/Values";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Category />
+      <Values />
     </>
   );
 }
