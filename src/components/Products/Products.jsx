@@ -33,7 +33,7 @@ export default function Products() {
 
         {/* tabs */}
 
-        <div className="grid grid-cols-3 md:flex items-center gap-3 justify-center mt-10">
+        <div className="flex flex-wrap items-center gap-3 justify-center mt-10">
           {categories.map((category, index) => {
             return (
               <button
