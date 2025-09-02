@@ -49,7 +49,7 @@ export default function Process() {
           <Heading orangeText={"Our"} blackText={"Process"} />
         </div>
 
-        <div className="lg:flex items-center justify-center mt-10 md:pt-20 lg:pt-50">
+        <div className="lg:flex items-center justify-center mt-10 md:pt-20 lg:pt-40">
           {steps.map((item) => (
             <div
               key={item.id}
