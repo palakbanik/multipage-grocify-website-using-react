@@ -3,6 +3,7 @@ import Heading from "../Heading/Heading";
 import ProductsList from "../ProductsList/ProductsList";
 import ProductsCard from "../ProductsCard/ProductsCard";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 export default function Products() {
   const categories = ["All", "Fruits", "Vegetables", "Dairy", "SeaFood"];
@@ -57,7 +58,12 @@ export default function Products() {
         </div>
 
         <div className="w-fit mx-auto mt-16">
-          <Button text={"View All"} />
+          <Link
+            to="/all-products"
+            className="bg-gradient-to-b from-orange-400 to-orange-500 text-white px-8 py-3 rounded-lg text-base md:text-lg transition-all duration-300 hover:scale-105 hover:from-orange-500 hover:to-orange-400  cursor-pointer"
+          >
+            View All
+          </Link>
         </div>
       </div>
     </section>
