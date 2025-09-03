@@ -73,7 +73,7 @@ export default function Footer() {
                 placeholder="Email address"
               />
               <button className="bg-orange-500 rounded-lg mr-1 text-xl p-2 cursor-pointer text-white">
-                <MdArrowForwardIos className=" " />
+                <MdArrowForwardIos />
               </button>
             </div>
           </ul>
